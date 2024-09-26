@@ -20,7 +20,7 @@ Docker employs an exponential backoff strategy to manage the timing of restart a
 - 4th restart attempt: wait 8 seconds
 - And so on...
 
-![alt text](./images/backoff-img.PNG)
+![alt text](./images/backup-img.png)
 
 This method is widely used in service restoration to avoid overwhelming the system.
 
