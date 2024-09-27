@@ -8,7 +8,7 @@ Using a supervisor process inside your container ensures that the container rema
 
 Suppose a company provides software that produces a full LAMP (Linux, Apache, MySQL, PHP) stack inside a single container. These containers use `supervisord` to ensure that all the related processes are kept running. Below is an example of how to use such a container.
 
-![alt text](./images/lamp-img.PNG)
+![alt text](./images/supervisord.png)
 
 ### Create a LAMP Docker Image
 
